@@ -28,12 +28,18 @@ with:
 "build": "react-scripts --openssl-legacy-provider build"
 ```
 
-// Older Code Base
-ReactDOM.render(<App />, document.getElementById('root'));
+Older Code Base:-
 
-// Newer Code Base
+```
+ReactDOM.render(<App />, document.getElementById('root'));
+```
+
+Newer Code Base:-
+
+```
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+```
 
 ## Useful Resources & Links
 
