@@ -43,7 +43,7 @@ root.render(<App />);
 
 ## Useful Resources & Links
 
-The following links allow you to dive deeper into some of the concepts taught in this module. Attached, you also find all the source code snapshots for the module - you also find them attached to the individual lectures they belong to.
+The following links allow you to dive deeper into some of the concepts.
 
 - **Official React Docs**: [React Documentation](https://reactjs.org/docs/getting-started.html)
 - **Official Node.js Docs**: [Node.js Documentation](https://nodejs.org/en/docs/)
