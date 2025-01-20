@@ -43,7 +43,7 @@ The following links allow you to dive deeper into some of the concepts taught in
 - **Official Node.js Docs**: [Node.js Documentation](https://nodejs.org/en/docs/)
 - **Official Express.js Docs**: [Express.js Documentation](https://expressjs.com/)
 - **Official MongoDB Docs**: [MongoDB Documentation](https://docs.mongodb.com/)
-- [Further React Resources](https://academind.com/learn/react/)
+- **Academind Learn React**: [Further React Resources](https://academind.com/learn/react/)
 
 Additionally, you can explore these resources for further learning:
 
