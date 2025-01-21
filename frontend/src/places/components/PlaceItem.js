@@ -1,4 +1,3 @@
-/*************  ✨ Codeium Command 🌟  *************/
 import React from "react";
 
 // Import the Card component from the shared component library
@@ -34,5 +33,3 @@ const PlaceItem = (props) => {
 };
 
 export default PlaceItem;
-
-/******  ef5e7779-8b28-4d08-a4ba-1670f3d87ba7  *******/

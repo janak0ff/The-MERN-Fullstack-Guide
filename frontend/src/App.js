@@ -1,5 +1,4 @@
-import React from "react"; // Import the React library to create React components.
-
+import React from "react";
 import {
   BrowserRouter as Router, // Import BrowserRouter to enable routing in the application.
   Route, // Import Route to define specific routes within the application.
@@ -13,38 +12,30 @@ import UserPlaces from "./places/pages/UserPlaces"; // Import the UserPlaces com
 import MainNavigation from "./shared/components/Navigation/MainNavigation"; // Import the MainNavigation component for the navigation bar.
 
 const App = () => {
-  // Define the App component, which is the main component of the application.
   return (
     <Router>
-      {" "}
       {/* Wrapping the application inside Router to enable routing */}
-      <MainNavigation />{" "}
+      <MainNavigation />
       {/* Render the MainNavigation component for navigating between different routes */}
       <main>
-        {" "}
-        {/* Main content area of the application */}
         <Switch>
-          {" "}
           {/* Use Switch to ensure only one route is active at a time */}
           <Route path="/" exact>
-            {" "}
             {/* Define a route for the root path */}
-            <Users />{" "}
+            <Users />
             {/* Render the Users component when the root path is accessed */}
           </Route>
           <Route path="/:userId/places" exact>
-            {" "}
             {/* Define a route for user-specific places */}
-            <UserPlaces />{" "}
+            <UserPlaces />
             {/* Render the UserPlaces component for the specified user ID */}
           </Route>
           <Route path="/places/new" exact>
-            {" "}
             {/* Define a route for adding a new place */}
-            <NewPlace />{" "}
+            <NewPlace />
             {/* Render the NewPlace component when the new place path is accessed */}
           </Route>
-          <Redirect to="/" />{" "}
+          <Redirect to="/" />
           {/* Redirect to the root route if no matching route is found */}
         </Switch>
       </main>
